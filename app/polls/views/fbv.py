@@ -1,7 +1,7 @@
-from django.http import HttpResponse
+# fbv(function-based view)
 from django.shortcuts import render, get_object_or_404, redirect
 
-from .models import Question, Choice
+from ..models import Question, Choice
 
 
 def index(request):
